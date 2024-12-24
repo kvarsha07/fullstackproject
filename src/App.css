@@ -1,0 +1,90 @@
+/* Navigation bar container */
+.nav-ul {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 20px;
+  padding: 15px 20px;
+  background-color:skyblue; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+  /* z-index: 1000; */
+}
+
+/* Remove list styling */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+/* List item styles */
+li {
+  display: inline-block;
+}
+
+/* Link styles */
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Link hover effect */
+a:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Add margin to the main content to avoid overlap with the navbar */
+
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
+
+/* CSS for SignUp Component */
+
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  margin-left: 60%;
+  margin-top: 0;
+}
+
+.input-box {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px 15px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+  margin-left: 40%;
+}
+
+.btn{
+  margin-left: 60%;
+  width: 100px;
+  background-color:skyblue;
+  color: black;
+}
+.btn :hover{
+  background-color:blue;
+  color: white
+}
