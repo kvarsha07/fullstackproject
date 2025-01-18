@@ -10,7 +10,7 @@ const SignUp = () => {
   });
 
 
-  const navigate =useNavigate();
+  const navigate =useNavigate();        ///double sign up pr nhi ja sk
     useEffect(()=>{
         const auth= localStorage.getItem('user')
           if(auth)
@@ -40,7 +40,7 @@ const SignUp = () => {
 
     } catch (error) {
         console.log(error,"error");
-      console.error("Error:", error);
+      
       alert("Something went wrong. Please try again!");
     }
   };
